@@ -9,6 +9,7 @@
             // String pulled from an example on the Lisp wikipedia page
             string lispCode = "((lambda (arg) (+ arg 1)) 5)";
             LISPCodeValidator.LISPParenthesesChecker(lispCode);
+            EnrollmentFileFormatter.FormatEnrollmentFile(Directory.GetCurrentDirectory() + "\\TestEnrollment_NotEnoughColumns.csv", 5);
         }
     }
 }

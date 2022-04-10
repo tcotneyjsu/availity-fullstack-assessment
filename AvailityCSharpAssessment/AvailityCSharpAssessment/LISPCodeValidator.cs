@@ -17,16 +17,25 @@ namespace AvailityCSharpAssessment
             int openParensCount = 0;
             foreach(char i in lispCode)
             {
-                if (i == '(') openParensCount++;
-                if (i == ')') openParensCount--;
+                if (i == '(')
+                {
+                    openParensCount++;
+                }
+                if (i == ')')
+                {
+                    openParensCount--;
+                }
                 // If too many Closed parentheses are detected, we can return false.
-                if (openParensCount < 0) return false;
+                if (openParensCount < 0)
+                {
+                    return false;
+                }
             }
             // If openParensCount is 0 at the end of the for loop,
             // then all open parentheses have a matching closed parentheses
             // If openParensCount is > 0, then there is a loose open parentheses
             // If openParensCount is < 0, then there is a loose closed parentheses
-            return (openParensCount == 0) ? true : false;
+            return openParensCount == 0;
         }
     }
 }
