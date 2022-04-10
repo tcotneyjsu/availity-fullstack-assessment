@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    height: 5vmin;
+    align-items: normal;
+    pointer-events: none;
+}
+
+
+.App-header {
+  background-color: white;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
