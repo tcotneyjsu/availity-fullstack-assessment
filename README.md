@@ -25,7 +25,8 @@ simplification of this process will help reduce the chances of a mistake happeni
 C# project that contains the solutions for questions 4 and 6. 
 LISPCodeValidator is a static class that contains the function LISPParentheseChecker that addresses question 4
 EnrollmentFileFormatter is a static class that contains the function FormatEnrollmentFile that addresses question 6
-Program.cs is a simple entry point I created for running both of the forementioned functions
+Program.cs is a simple entry point I created for running both of the forementioned functions. You will need to change
+the CSV file path input for the FormatEnrollmentFile functions.
 ### AvailityReactAssessment
 React project that contains the solution for question 5. I used the Javascript React project template in Visual Studio as
 a starting point. The files that contain the majority of the code are src\App.js and src\RequestForm.jsx
