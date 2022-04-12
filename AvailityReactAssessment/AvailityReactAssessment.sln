@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "AvailityReactAssessment", "AvailityReactAssessment\AvailityReactAssessment.esproj", "{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0D8A19-5401-48AD-8A3B-56F340BB7B8D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85D34F69-CC0E-48FD-A55B-8398E8B736A4}
+	EndGlobalSection
+EndGlobal
