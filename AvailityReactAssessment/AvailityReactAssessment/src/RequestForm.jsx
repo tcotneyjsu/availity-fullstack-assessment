@@ -37,9 +37,10 @@ class RequestForm extends React.Component {
     handleSubmit(event) {
         const { firstName, lastName, npiNumber, businessAddress, telephoneNumber, emailAddress } = this.state;
         event.preventDefault();
-        alert('A request was made with the following details: \nFirst name: ' + firstName + '\nLast Name: ' + lastName +
+        alert('You have been registered with Availity with the following details: \nFirst name: ' + firstName + '\nLast Name: ' + lastName +
             '\nNPI Number: ' + npiNumber + '\nBusiness Address: ' + businessAddress + '\nTelephone Number: ' + telephoneNumber +
             '\nEmail Address: ' + emailAddress);
+        this.setState({ firstName: '', lastName: '', npiNumber: '', businessAddress: '', telephoneNumber: '', emailAddress: '' });
     }
 
     render() {
